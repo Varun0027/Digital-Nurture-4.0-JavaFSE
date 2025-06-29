@@ -1,0 +1,5 @@
+package com.varun.junitdemo._JUnitDemo;
+
+public interface ExternalApi {
+    String getData();
+}
