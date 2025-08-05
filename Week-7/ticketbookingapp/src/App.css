@@ -1,0 +1,83 @@
+/* General App Styles */
+.App {
+  text-align: center;
+  background: #f7f8fa;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center Content */
+.App-header {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.App-header:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.App-header h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+.App-header p {
+  color: #7f8c8d;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Login Button */
+button:nth-of-type(1) {
+  background: #3498db;
+  color: white;
+}
+
+button:nth-of-type(1):hover {
+  background: #2980b9;
+}
+
+/* Logout Button */
+button:nth-of-type(2) {
+  background: #e74c3c;
+  color: white;
+}
+
+button:nth-of-type(2):hover {
+  background: #c0392b;
+}
+
+/* Ticket Button inside UserPage */
+.App-header button:last-of-type {
+  background: #2ecc71;
+  color: white;
+  margin-top: 10px;
+}
+
+.App-header button:last-of-type:hover {
+  background: #27ae60;
+}

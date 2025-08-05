@@ -1,0 +1,82 @@
+/* General App Styling */
+.App {
+  text-align: center;
+  background: #f5f6fa;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styling */
+.App-header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.App-header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+/* Card Container */
+.office-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Individual Office Card */
+.office-card {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.office-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Office Name */
+.office-card h2 {
+  margin: 10px 0;
+  color: #2c3e50;
+  font-size: 1.4rem;
+}
+
+/* Rent */
+.office-card h3 {
+  margin: 6px 0;
+  font-weight: normal;
+}
+
+/* Rent colors */
+.rent-low {
+  color: #e74c3c;
+}
+
+.rent-high {
+  color: #27ae60;
+}
+
+/* Address */
+.office-card .address {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
+
+/* Image Styling */
+.office-image {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 40%;
+  margin-bottom: 20px;
+}
